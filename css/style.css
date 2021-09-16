@@ -1,0 +1,121 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Georama:wght@200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+section.main{
+    width: 100%;
+    height: 100%;
+}
+section.main .box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    height: 100%;
+}
+section.main .box h3{
+    font-size: 3rem;
+    /* width: 75%; */
+}
+ h3 span{
+    color: steelblue;
+    text-transform: uppercase;
+/* font-family: 'Georama', sans-serif; */
+font-family: 'Abril Fatface', cursive;
+font-weight: bolder;
+/* letter-spacing: 0.2px.; */
+}
+section.main{
+    min-height: 85vh;
+}
+section.main .box p{
+    color: teal;
+    font-size: 1.2rem;
+}
+.linkbtn{
+    display: inline-block;
+    text-decoration: none;
+    color: steelblue;
+    background-color: #fff;
+    border: 2px solid steelblue;
+    width: 200px;
+    text-align: center;
+    padding: 10px ;
+    text-transform: uppercase;
+    transition: all 0.5s ease-in-out;
+}
+ .linkbtn:hover{
+    color: aliceblue;
+    background-color: teal;
+    border-color: rgb(0, 61, 117);
+}
+img.bnd{
+    width: 75px;
+    border-radius: 50%;
+}
+footer h4{
+    font-size: 1.2rem;
+    text-align: center;
+}
+footer{
+    background-color: teal;
+    padding: 25px 0;
+    color: aliceblue;
+}
+footer p{
+    font-weight: bold;
+    color: rgb(237, 248, 231);
+}
+footer .ddr{
+    color: white;
+    text-transform: uppercase;
+}
+
+form{
+    width: 60%;
+    margin: 0% auto;
+    height: 100%;
+}
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ser-img{
+    width: 100%;
+    height: 270px;
+}
+
+@media (max-width:800px) {
+    section.main .box{
+        text-align: center;
+    }
+    .linkbtn{
+        margin: auto;
+    }
+    form{
+        width: 80%;
+        margin: 0% auto;
+        height: 100%;
+    }
+    .ser-img{
+        width: 100%;
+        height: 300px;
+    }
+}
+@media (max-width:600px) {
+    form{
+        width: 95%;
+        margin: 0% auto;
+        height: 100%;
+    }
+    .ser-img{
+        width: 100%;
+        height: 330px;
+    }
+}
